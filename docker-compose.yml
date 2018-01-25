@@ -1,0 +1,19 @@
+springdemo:
+    build: .
+    container_name: springdemo
+    ports:
+        - 8080:8080
+    hostname: springdemo
+    links:
+        - mongo:mongo
+            
+mongo:
+    image: mongo
+    container_name: mongo
+    ports:
+        - 27017
+    hostname: mongo
+    volumes:
+        - $HOME/mongo/data/db:/data/db
+        
+
