@@ -1,16 +1,22 @@
-## Spring REST Example Project
+# Spring-pet application
 
-### The Course
-The "REST With Spring" Classes: http://bit.ly/restwithspring
+**Experimental project to try Spring, SpringBoot, SpringData, Docker, WebFlux.**
+    
+### **Deployment and start using Docker Compose**
+- From your project directory, start up your application by running:
 
-### Relevant Articles
+        docker-compose up --build -d
 
-- [Concurrent Test Execution in Spring 5](http://www.baeldung.com/spring-5-concurrent-tests)
-- [Introduction to the Functional Web Framework in Spring 5](http://www.baeldung.com/spring-5-functional-web)
-- [Exploring the Spring 5 MVC URL Matching Improvements](http://www.baeldung.com/spring-5-mvc-url-matching)
-- [Spring 5 WebClient](http://www.baeldung.com/spring-5-webclient)
-- [Spring 5 Functional Bean Registration](http://www.baeldung.com/spring-5-functional-beans)
-- [The SpringJUnitConfig and SpringJUnitWebConfig Annotations in Spring 5](http://www.baeldung.com/spring-5-junit-config)
-- [Spring Security 5 for Reactive Applications](http://www.baeldung.com/spring-security-5-reactive)
-- [Spring 5 Testing with @EnabledIf Annotation](http://www.baeldung.com/sring-5-enabledif)
-- [Introduction to Spring REST Docs](http://www.baeldung.com/spring-rest-docs)
+CRUD methods for material requst management.
+{[/mr],method=[DELETE]}
+{[/mr],method=[GET]}
+{[/mr/{id}],method=[GET]}
+{[/mr],method=[PUT]}
+
+flux version
+{[/flux/mr],method=[DELETE]}
+{[/flux/mr],method=[GET]}
+{[/flux/mr/{id}],method=[GET]}
+{[/flux/mr],method=[PUT]}		
+	
+
